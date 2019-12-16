@@ -11,14 +11,14 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity{
 
     private Button btn;
-
+//master
     private final String GREETER = "Hello from the other side!! ";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+	Integer num = 0;
         btn = (Button) findViewById(R.id.buttonMain);
 
         btn.setOnClickListener(new View.OnClickListener() {
